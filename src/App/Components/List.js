@@ -30,6 +30,7 @@ class List extends React.Component {
   render() {
     return (<div>
       <h2>list from back-end</h2>
+      {/*TODO GTB-知识点: - 在didMount中触发请求数据，而不是template*/}
       <p>{this.getStudentList()}</p>
     </div>);
   }
